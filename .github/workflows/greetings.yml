@@ -1,4 +1,4 @@
-name: Greetings
+name: Greetings Updated
 
 on: [pull_request_target, issues]
 
