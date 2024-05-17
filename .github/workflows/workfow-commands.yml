@@ -12,10 +12,10 @@ jobs:
         run:  |
             echo $VAL
       - name: "Debug Messages"
-        run:
+        run: |
             echo "::debug::Set the Octocat variable"
       - name: "Group Message"
-        run: 
+        run: |
             echo "::group::My title"
             echo "Inside group"
             echo "Another group"
