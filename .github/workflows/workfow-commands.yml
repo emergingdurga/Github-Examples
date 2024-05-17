@@ -1,0 +1,14 @@
+name: Workflow Commands
+on: [push]
+
+jobs:
+  workflow1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Step 1 ]"
+        run:  |
+            echo "VAL=durga" >> $GITHUB_ENV
+      - name: "Step 1 ]"
+        run:  |
+            echo $VAL
+    
