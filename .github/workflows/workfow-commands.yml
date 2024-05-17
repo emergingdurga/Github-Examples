@@ -11,4 +11,13 @@ jobs:
       - name: "Step 1 ]"
         run:  |
             echo $VAL
+      - name: "Group Messages"
+        run:
+            echo "::debug::Set the Octocat variable"
+            echo "::notice file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
+            echo "::error file=app.js,line=1,col=5,endColumn=7::Missing semicolon"
+            echo "::group::My title"
+            echo "Inside group"
+            echo "Another group"
+            echo "::endgroup::"
     
