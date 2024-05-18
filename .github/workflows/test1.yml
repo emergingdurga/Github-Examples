@@ -16,5 +16,3 @@ jobs:
     steps:
     - name: Print name
       run: echo "$NAME"
-      env:
-        NAME: 'My Action 3'
