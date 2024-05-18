@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: "Step 1"
         run:  |
-            echo "${{ github.action }}"
+            echo "${{ github.repository }}"
